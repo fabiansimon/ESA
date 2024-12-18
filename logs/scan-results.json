@@ -1,0 +1,917 @@
+[
+  {
+    "domain": "astroshop.es",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "geojson.org",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "taktemp.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "b1bank.com",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "email.net",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.feitocaoegatopet.com.br",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.brd.rw",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.padsquad.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "deeps.net",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "www.shipway.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "kakekmerah-4d.blog",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "titantvguide.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_CHACHA20_POLY1305_SHA256",
+      "standardName": "TLS_CHACHA20_POLY1305_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.processmaker.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "aquariumcomputer.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.ahla.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "plusplushostingserver.net",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "kupyansk.com.ua",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.poltronic.net",
+    "ip": "",
+    "error": "Hostname/IP does not match certificate's altnames: Host: www.poltronic.net. is not in the cert's altnames: DNS:*.a24.domeny.pl, DNS:a24.domeny.pl"
+  },
+  {
+    "domain": "harley-davidsonforums.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "rxabbvie.com",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "iwmf.ir",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.maltayellowpages.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "revize.com",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "www.globalrallycross.com",
+    "ip": "89.161.252.123",
+    "error": "Hostname/IP does not match certificate's altnames: Host: www.globalrallycross.com. is not in the cert's altnames: DNS:*.home.pl, DNS:home.pl"
+  },
+  {
+    "domain": "www.allianzbankfa.it",
+    "ip": "54.217.209.80",
+    "error": "Hostname/IP does not match certificate's altnames: Host: www.allianzbankfa.it. is not in the cert's altnames: DNS:*.cofe.cloud, DNS:cofe.cloud"
+  },
+  {
+    "domain": "fmsinc.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "justremote.co",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "fixthephoto.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.eleventa.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.loopliveweb.com.au",
+    "ip": "165.160.13.20",
+    "error": "Connection timed out."
+  },
+  {
+    "domain": "www.futnext.com",
+    "ip": "18.239.36.50",
+    "error": "C09EBDE001000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1590:SSL alert number 40\n"
+  },
+  {
+    "domain": "ecomt.com.br",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.maxoncomputerinc.net",
+    "ip": "",
+    "error": "getaddrinfo ENOTFOUND www.maxoncomputerinc.net"
+  },
+  {
+    "domain": "www.akam.uz",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.eqtble.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.intelli-hub.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "huaydeesud-vip.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.lordserials.lol",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "xn--42c2bl3am1bzdk9k.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.anne69317.sbs",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "wayoflife.hu",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.el-com.su",
+    "ip": "",
+    "error": "Hostname/IP does not match certificate's altnames: Host: www.el-com.su. is not in the cert's altnames: DNS:*.el-com.ru, DNS:el-com.ru"
+  },
+  {
+    "domain": "tantos-shop.ru",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "joycasino-pzp.top",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "champion-casino-rys.buzz",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "buckinghamshirelive.com",
+    "ip": "3.255.46.63",
+    "error": "Hostname/IP does not match certificate's altnames: Host: buckinghamshirelive.com. is not in the cert's altnames: DNS:*.dev.mmgapi.net"
+  },
+  {
+    "domain": "kawanku33.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "zsxbjb.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "kanerepublican.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "cxeonline.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "timesofeconomics.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "wedlockcross.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "osohq.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.kktcell.com",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "www.comunidadvirtualcaa.co",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.ishizuka-sangyo.co.jp",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "excellentjobsnetwork.com",
+    "ip": "45.10.22.241",
+    "error": "certificate has expired"
+  },
+  {
+    "domain": "www.steuer-web.de",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.jpgokil.site",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "kinoron.co",
+    "ip": "",
+    "error": "getaddrinfo ENOTFOUND kinoron.co"
+  },
+  {
+    "domain": "antonyandthejohnsons.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.personio.es",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "wtwt282.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "accessmyiq.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.helpmepcs.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.botsrv2.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "cablepaddle.com",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "lifemark.ca",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.whozirtahoa.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.bospaito.day",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.hiperseguidores.com.br",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "www.gephardtdaily.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.stakingwizard.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "w2solution.co.jp",
+    "ip": "219.94.163.86",
+    "error": "certificate has expired"
+  },
+  {
+    "domain": "aunivers.no",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.orlandpark.org",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "mytop-in.net",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "sincofarmasp.com.br",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "appsocool.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.sr7pokerdom.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.chemistry-chemists.com",
+    "ip": "185.43.220.48",
+    "error": "self-signed certificate"
+  },
+  {
+    "domain": "www.coframe.ai",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "www.paysdelaloire.fr",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.hilangarah.uk",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "croner.co.uk",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "raceraves.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.bidfooddirect.co.uk",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "nic.dot",
+    "ip": "165.160.13.20",
+    "error": "Connection timed out."
+  },
+  {
+    "domain": "www.logotyp.us",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "festzeit.ch",
+    "ip": "178.63.25.238",
+    "error": "Hostname/IP does not match certificate's altnames: Host: festzeit.ch. is not in the cert's altnames: DNS:www.festzeit.ch"
+  },
+  {
+    "domain": "abbastelecom.net",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES256-GCM-SHA384",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "salvadorescoda.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "ear1tlow.xyz",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-ECDSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  },
+  {
+    "domain": "stearnsandfoster.com",
+    "ip": "165.160.15.20",
+    "error": "Connection timed out."
+  },
+  {
+    "domain": "www.astra-honda.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "hoteljohnny.com",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.teletracker.net",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_128_GCM_SHA256",
+      "standardName": "TLS_AES_128_GCM_SHA256",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "kazino-playfort.net",
+    "authorized": true,
+    "protocol": "TLSv1.3",
+    "cipher": {
+      "name": "TLS_AES_256_GCM_SHA384",
+      "standardName": "TLS_AES_256_GCM_SHA384",
+      "version": "TLSv1.3"
+    }
+  },
+  {
+    "domain": "www.diorama.ru",
+    "authorized": true,
+    "protocol": "TLSv1.2",
+    "cipher": {
+      "name": "ECDHE-RSA-AES128-GCM-SHA256",
+      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "version": "TLSv1.2"
+    }
+  }
+]

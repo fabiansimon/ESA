@@ -13,13 +13,13 @@ const baseOptions = {
   timeout: config.timeout,
 };
 
-function scan(host) {
-  const options = { ...baseOptions, host };
+function scan({ domain, ip }) {
+  const options = { ...baseOptions, host: ip || domain, servername: domain };
 
   return new Promise((res) => {
     const client = tls.connect(options, () => {
       const result = {
-        domain: host,
+        domain,
         authorized: client.authorized,
         protocol: client.getProtocol(),
         cipher: { ...client.getCipher() },
@@ -30,20 +30,20 @@ function scan(host) {
 
     // Handle error
     client.on('error', (err) => {
-      logger.error({ domain: host, error: err.message }, 'Connection error.');
-      res({ domain: host, error: err.message });
+      logger.error({ domain, ip, error: err.message }, 'Connection error.');
+      res({ domain, ip, error: err.message });
     });
 
     // Handle timeout
     client.setTimeout(baseOptions.timeout, () => {
       client.destroy();
-      logger.warn({ domain: host }, 'Connection timed out.');
-      res({ domain: host, error: 'Connection timed out.' });
+      logger.warn({ domain, ip }, 'Connection timed out.');
+      res({ domain, ip, error: 'Connection timed out.' });
     });
   });
 }
 
-// Scan multiple domains in parallel
+// Scan multiple domains in entries
 async function scanDomains(domains) {
   const results = [];
   const limit = config.concurrency; // concurrency limit
@@ -62,39 +62,47 @@ async function scanDomains(domains) {
 
 function readDomains(path) {
   return new Promise((res, rej) => {
-    const domains = [];
+    const entries = [];
     fs.createReadStream(path)
-      .pipe(csv())
+      .pipe(csv({ headers: false }))
       .on('data', (row) => {
-        if (row.domain) domains.push(row.domain.trim());
+        const domain = row[0].trim();
+        const ip = row[1].trim();
+        if (domain)
+          entries.push({
+            domain,
+            ip,
+          });
       })
-      .on('end', () => res(domains))
+      .on('end', () => res(entries))
       .on('error', () => rej(err));
   });
 }
 
 function saveResults(results) {
   const path = config.logFilePath;
-  fs.writeFileSync(logFilePath, JSON.stringify(results, null, 2));
+  fs.writeFileSync(path, JSON.stringify(results, null, 2));
   logger.info(`Scan results saved to ${path}`);
 }
 
 async function run() {
   try {
     logger.info('Reading in domains.');
-    const domains = readDomains(config.inputFilePath);
+    const entries = await readDomains(config.inputFilePath);
 
-    logger.info({ count: domains.length }, 'Starting scan for domains.');
-    const results = await scanDomains(domains);
+    logger.info({ count: entries.length }, 'Starting scan for domains.');
+    const results = await scanDomains(entries);
 
     logger.info({ count: results.length }, 'Saving results.');
     saveResults(results);
 
     const authorizedCount = results.filter((r) => r.authorized).length;
     logger.info(
-      `Scan completed: ${authorizedCount}/${totalCount} domains are authorized`
+      `Scan completed: ${authorizedCount}/${results.length} domains are authorized`
     );
   } catch (error) {
-    logger.error({ error: err.message }, 'Scanner failed.');
+    logger.error({ error: error.message }, 'Scanner failed.');
   }
 }
+
+run();

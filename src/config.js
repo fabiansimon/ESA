@@ -4,5 +4,5 @@ export const config = {
   domains: './data/domains.csv',
   logFilePath: './logs/scan-results.json',
   concurrency: 10,
-  timeout: 5_000,
+  timeout: 5_000, // in ms
 };
