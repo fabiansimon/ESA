@@ -21,6 +21,9 @@ function scan({ domain, ip }) {
       const result = {
         domain,
         authorized: client.authorized,
+        issuer: client.authorized
+          ? client.getPeerCertificate().issuer.O // Only get issuer if authorized
+          : null,
         protocol: client.getProtocol(),
         cipher: { ...client.getCipher() },
       };

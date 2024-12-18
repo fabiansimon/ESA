@@ -2,6 +2,7 @@
   {
     "domain": "astroshop.es",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -12,6 +13,7 @@
   {
     "domain": "geojson.org",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -22,6 +24,7 @@
   {
     "domain": "taktemp.com",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -31,17 +34,13 @@
   },
   {
     "domain": "b1bank.com",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "107.22.20.9",
+    "error": "Connection timed out."
   },
   {
     "domain": "email.net",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -52,6 +51,7 @@
   {
     "domain": "www.feitocaoegatopet.com.br",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -61,17 +61,13 @@
   },
   {
     "domain": "www.brd.rw",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "41.186.76.2",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.padsquad.com",
     "authorized": true,
+    "issuer": "Amazon",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -81,27 +77,18 @@
   },
   {
     "domain": "deeps.net",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "45.79.215.146",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.shipway.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "52.17.119.105",
+    "error": "Connection timed out."
   },
   {
     "domain": "kakekmerah-4d.blog",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -111,17 +98,13 @@
   },
   {
     "domain": "titantvguide.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_CHACHA20_POLY1305_SHA256",
-      "standardName": "TLS_CHACHA20_POLY1305_SHA256",
-      "version": "TLSv1.3"
-    }
+    "ip": "66.43.219.208",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.processmaker.com",
     "authorized": true,
+    "issuer": "Sectigo Limited",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -132,6 +115,7 @@
   {
     "domain": "aquariumcomputer.com",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -142,6 +126,7 @@
   {
     "domain": "www.ahla.com",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -151,32 +136,23 @@
   },
   {
     "domain": "plusplushostingserver.net",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "67.222.143.169",
+    "error": "Connection timed out."
   },
   {
     "domain": "kupyansk.com.ua",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "91.222.138.63",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.poltronic.net",
     "ip": "",
-    "error": "Hostname/IP does not match certificate's altnames: Host: www.poltronic.net. is not in the cert's altnames: DNS:*.a24.domeny.pl, DNS:a24.domeny.pl"
+    "error": "Connection timed out."
   },
   {
     "domain": "harley-davidsonforums.com",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -186,17 +162,13 @@
   },
   {
     "domain": "rxabbvie.com",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "159.180.132.176",
+    "error": "Connection timed out."
   },
   {
     "domain": "iwmf.ir",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -207,6 +179,7 @@
   {
     "domain": "www.maltayellowpages.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -216,13 +189,8 @@
   },
   {
     "domain": "revize.com",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "52.223.16.83",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.globalrallycross.com",
@@ -232,31 +200,22 @@
   {
     "domain": "www.allianzbankfa.it",
     "ip": "54.217.209.80",
-    "error": "Hostname/IP does not match certificate's altnames: Host: www.allianzbankfa.it. is not in the cert's altnames: DNS:*.cofe.cloud, DNS:cofe.cloud"
+    "error": "Connection timed out."
   },
   {
     "domain": "fmsinc.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "104.215.89.22",
+    "error": "Connection timed out."
   },
   {
     "domain": "justremote.co",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_128_GCM_SHA256",
-      "standardName": "TLS_AES_128_GCM_SHA256",
-      "version": "TLSv1.3"
-    }
+    "ip": "13.248.131.213",
+    "error": "Connection timed out."
   },
   {
     "domain": "fixthephoto.com",
     "authorized": true,
+    "issuer": "Amazon",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -266,13 +225,8 @@
   },
   {
     "domain": "www.eleventa.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "152.89.79.36",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.loopliveweb.com.au",
@@ -286,13 +240,8 @@
   },
   {
     "domain": "ecomt.com.br",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "177.67.112.6",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.maxoncomputerinc.net",
@@ -302,6 +251,7 @@
   {
     "domain": "www.akam.uz",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -312,6 +262,7 @@
   {
     "domain": "www.eqtble.com",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -322,6 +273,7 @@
   {
     "domain": "www.intelli-hub.com",
     "authorized": true,
+    "issuer": "Amazon",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -332,6 +284,7 @@
   {
     "domain": "huaydeesud-vip.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -342,6 +295,7 @@
   {
     "domain": "www.lordserials.lol",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -352,6 +306,7 @@
   {
     "domain": "xn--42c2bl3am1bzdk9k.com",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -362,6 +317,7 @@
   {
     "domain": "www.anne69317.sbs",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -372,6 +328,7 @@
   {
     "domain": "wayoflife.hu",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -382,21 +339,17 @@
   {
     "domain": "www.el-com.su",
     "ip": "",
-    "error": "Hostname/IP does not match certificate's altnames: Host: www.el-com.su. is not in the cert's altnames: DNS:*.el-com.ru, DNS:el-com.ru"
+    "error": "Connection timed out."
   },
   {
     "domain": "tantos-shop.ru",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "46.254.18.72",
+    "error": "Connection timed out."
   },
   {
     "domain": "joycasino-pzp.top",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -407,6 +360,7 @@
   {
     "domain": "champion-casino-rys.buzz",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -417,11 +371,12 @@
   {
     "domain": "buckinghamshirelive.com",
     "ip": "3.255.46.63",
-    "error": "Hostname/IP does not match certificate's altnames: Host: buckinghamshirelive.com. is not in the cert's altnames: DNS:*.dev.mmgapi.net"
+    "error": "Connection timed out."
   },
   {
     "domain": "kawanku33.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -432,6 +387,7 @@
   {
     "domain": "zsxbjb.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -441,17 +397,13 @@
   },
   {
     "domain": "kanerepublican.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "192.104.183.109",
+    "error": "Connection timed out."
   },
   {
     "domain": "cxeonline.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -461,27 +413,18 @@
   },
   {
     "domain": "timesofeconomics.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "156.67.222.23",
+    "error": "Connection timed out."
   },
   {
     "domain": "wedlockcross.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_128_GCM_SHA256",
-      "standardName": "TLS_AES_128_GCM_SHA256",
-      "version": "TLSv1.3"
-    }
+    "ip": "13.248.213.45",
+    "error": "Connection timed out."
   },
   {
     "domain": "osohq.com",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -491,17 +434,13 @@
   },
   {
     "domain": "www.kktcell.com",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "94.79.74.240",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.comunidadvirtualcaa.co",
     "authorized": true,
+    "issuer": "GoDaddy.com, Inc.",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -512,6 +451,7 @@
   {
     "domain": "www.ishizuka-sangyo.co.jp",
     "authorized": true,
+    "issuer": "ZeroSSL",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -522,21 +462,17 @@
   {
     "domain": "excellentjobsnetwork.com",
     "ip": "45.10.22.241",
-    "error": "certificate has expired"
+    "error": "Connection timed out."
   },
   {
     "domain": "www.steuer-web.de",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_128_GCM_SHA256",
-      "standardName": "TLS_AES_128_GCM_SHA256",
-      "version": "TLSv1.3"
-    }
+    "ip": "62.159.27.21",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.jpgokil.site",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -551,17 +487,13 @@
   },
   {
     "domain": "antonyandthejohnsons.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_128_GCM_SHA256",
-      "standardName": "TLS_AES_128_GCM_SHA256",
-      "version": "TLSv1.3"
-    }
+    "ip": "198.185.159.145",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.personio.es",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -572,6 +504,7 @@
   {
     "domain": "wtwt282.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -581,17 +514,13 @@
   },
   {
     "domain": "accessmyiq.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "2.16.6.7",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.helpmepcs.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -602,6 +531,7 @@
   {
     "domain": "www.botsrv2.com",
     "authorized": true,
+    "issuer": "Amazon",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -611,17 +541,13 @@
   },
   {
     "domain": "cablepaddle.com",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "192.243.61.227",
+    "error": "Connection timed out."
   },
   {
     "domain": "lifemark.ca",
     "authorized": true,
+    "issuer": "DigiCert Inc",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -632,6 +558,7 @@
   {
     "domain": "www.whozirtahoa.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -642,6 +569,7 @@
   {
     "domain": "www.bospaito.day",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -651,17 +579,13 @@
   },
   {
     "domain": "www.hiperseguidores.com.br",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "152.228.155.67",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.gephardtdaily.com",
     "authorized": true,
+    "issuer": "Let's Encrypt",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -671,22 +595,18 @@
   },
   {
     "domain": "www.stakingwizard.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "34.249.200.254",
+    "error": "Connection timed out."
   },
   {
     "domain": "w2solution.co.jp",
     "ip": "219.94.163.86",
-    "error": "certificate has expired"
+    "error": "Connection timed out."
   },
   {
     "domain": "aunivers.no",
     "authorized": true,
+    "issuer": "Amazon",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -696,17 +616,13 @@
   },
   {
     "domain": "www.orlandpark.org",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "2.16.6.5",
+    "error": "Connection timed out."
   },
   {
     "domain": "mytop-in.net",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -716,17 +632,13 @@
   },
   {
     "domain": "sincofarmasp.com.br",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "162.240.101.3",
+    "error": "Connection timed out."
   },
   {
     "domain": "appsocool.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -736,32 +648,23 @@
   },
   {
     "domain": "www.sr7pokerdom.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_128_GCM_SHA256",
-      "standardName": "TLS_AES_128_GCM_SHA256",
-      "version": "TLSv1.3"
-    }
+    "ip": "76.223.54.146",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.chemistry-chemists.com",
     "ip": "185.43.220.48",
-    "error": "self-signed certificate"
+    "error": "Connection timed out."
   },
   {
     "domain": "www.coframe.ai",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "54.184.125.208",
+    "error": "Connection timed out."
   },
   {
     "domain": "www.paysdelaloire.fr",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -772,6 +675,7 @@
   {
     "domain": "www.hilangarah.uk",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -781,17 +685,13 @@
   },
   {
     "domain": "croner.co.uk",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_256_GCM_SHA384",
-      "standardName": "TLS_AES_256_GCM_SHA384",
-      "version": "TLSv1.3"
-    }
+    "ip": "13.107.246.67",
+    "error": "Connection timed out."
   },
   {
     "domain": "raceraves.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -802,6 +702,7 @@
   {
     "domain": "www.bidfooddirect.co.uk",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -817,6 +718,7 @@
   {
     "domain": "www.logotyp.us",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -827,37 +729,22 @@
   {
     "domain": "festzeit.ch",
     "ip": "178.63.25.238",
-    "error": "Hostname/IP does not match certificate's altnames: Host: festzeit.ch. is not in the cert's altnames: DNS:www.festzeit.ch"
+    "error": "Connection timed out."
   },
   {
     "domain": "abbastelecom.net",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES256-GCM-SHA384",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
-      "version": "TLSv1.2"
-    }
+    "ip": "185.110.162.15",
+    "error": "Connection timed out."
   },
   {
     "domain": "salvadorescoda.com",
-    "authorized": true,
-    "protocol": "TLSv1.3",
-    "cipher": {
-      "name": "TLS_AES_128_GCM_SHA256",
-      "standardName": "TLS_AES_128_GCM_SHA256",
-      "version": "TLSv1.3"
-    }
+    "ip": "82.223.131.138",
+    "error": "Connection timed out."
   },
   {
     "domain": "ear1tlow.xyz",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-ECDSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "188.114.97.0",
+    "error": "Connection timed out."
   },
   {
     "domain": "stearnsandfoster.com",
@@ -867,6 +754,7 @@
   {
     "domain": "www.astra-honda.com",
     "authorized": true,
+    "issuer": "DigiCert Inc",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -877,6 +765,7 @@
   {
     "domain": "hoteljohnny.com",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -887,6 +776,7 @@
   {
     "domain": "www.teletracker.net",
     "authorized": true,
+    "issuer": "Amazon",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_128_GCM_SHA256",
@@ -897,6 +787,7 @@
   {
     "domain": "kazino-playfort.net",
     "authorized": true,
+    "issuer": "Google Trust Services",
     "protocol": "TLSv1.3",
     "cipher": {
       "name": "TLS_AES_256_GCM_SHA384",
@@ -906,12 +797,7 @@
   },
   {
     "domain": "www.diorama.ru",
-    "authorized": true,
-    "protocol": "TLSv1.2",
-    "cipher": {
-      "name": "ECDHE-RSA-AES128-GCM-SHA256",
-      "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
-      "version": "TLSv1.2"
-    }
+    "ip": "178.154.225.106",
+    "error": "Connection timed out."
   }
 ]

@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/scanner.js"
+    "scan": "node src/scanner.js",
+    "analyze": "node src/analysis.js"
   },
   "keywords": [],
   "author": "",

@@ -2,4 +2,4 @@
 
 clear
 
-node src/scanner.js
+npm run scan && npm run analyze
