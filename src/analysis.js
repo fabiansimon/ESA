@@ -2,6 +2,7 @@ import fs from 'fs';
 import { logger } from './logger.js';
 import { argv } from './argv.js';
 
+// Calculate percentage of domains using each TLS version
 function analyzeTLSVersions(results) {
   const conResults = results.filter((result) => result.protocol);
   const versionCount = conResults.reduce((counts, result) => {
@@ -17,7 +18,7 @@ function analyzeTLSVersions(results) {
 
   return percentages;
 }
-
+// Analyze validity of certificates
 function analyzeCertifacteValidity(results) {
   const validCount = results.filter((result) => result.authorized).length;
 
@@ -28,6 +29,7 @@ function analyzeCertifacteValidity(results) {
   };
 }
 
+// Determine top certificate authorities
 function analyzeCerticateAuthorities(results) {
   const caCount = results
     .filter((result) => result.authorized && result.issuer)
@@ -53,6 +55,7 @@ function analyzeCerticateAuthorities(results) {
   }));
 }
 
+// Identifies outdated cipher suites
 function analyzeCipherSuites(results) {
   const outdatedCount = results.filter((result) => {
     if (!result.cipher) return false;
@@ -64,12 +67,14 @@ function analyzeCipherSuites(results) {
   return { outdated: ((outdatedCount / results.length) * 100).toFixed(2) };
 }
 
+// Save results to a JSON file
 function saveResults(results) {
   const path = argv.analysisFilePath;
   fs.writeFileSync(path, JSON.stringify(results, null, 2));
   logger.info(`Analysis results saved to ${path}`);
 }
 
+// main function that handles analyzing process
 function analyze() {
   try {
     // read in data
@@ -100,4 +105,5 @@ function analyze() {
   }
 }
 
+// Lets roll
 analyze();

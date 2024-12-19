@@ -4,8 +4,10 @@ import csv from 'csv-parser';
 import { logger } from './logger.js';
 import { argv } from './argv.js';
 
+// Read in certifcate to use
 const certificate = fs.readFileSync(argv.certFilePath);
 
+// Configure base options
 const baseOptions = {
   port: 443,
   ca: certificate,
@@ -13,6 +15,7 @@ const baseOptions = {
   timeout: argv.timeout,
 };
 
+// Perform TLS scan for a single domain or IP
 function scan({ domain, ip }) {
   const options = { ...baseOptions, host: ip || domain, servername: domain };
 
@@ -46,7 +49,7 @@ function scan({ domain, ip }) {
   });
 }
 
-// Scan multiple domains in entries
+// Scan multiple domains in parallel
 async function scanDomains(domains) {
   const results = [];
   const limit = argv.concurrency; // concurrency limit
@@ -63,6 +66,7 @@ async function scanDomains(domains) {
   return results;
 }
 
+// Read domains and optional IPs from a CSV file
 function readDomains(path) {
   return new Promise((res, rej) => {
     const entries = [];
@@ -82,12 +86,14 @@ function readDomains(path) {
   });
 }
 
+// Save scan results to a JSON file
 function saveResults(results) {
   const path = argv.logFilePath;
   fs.writeFileSync(path, JSON.stringify(results, null, 2));
   logger.info(`Scan results saved to ${path}`);
 }
 
+// main function that handles entire scanning process
 async function run() {
   try {
     logger.info('Reading in domains.');
@@ -108,4 +114,5 @@ async function run() {
   }
 }
 
+// Lets roll
 run();
