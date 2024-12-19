@@ -1,6 +1,6 @@
 import fs from 'fs';
-import { config } from './config.js';
 import { logger } from './logger.js';
+import { argv } from './argv.js';
 
 function analyzeTLSVersions(results) {
   const conResults = results.filter((result) => result.protocol);
@@ -64,10 +64,16 @@ function analyzeCipherSuites(results) {
   return { outdated: ((outdatedCount / results.length) * 100).toFixed(2) };
 }
 
+function saveResults(results) {
+  const path = argv.analysisFilePath;
+  fs.writeFileSync(path, JSON.stringify(results, null, 2));
+  logger.info(`Analysis results saved to ${path}`);
+}
+
 function analyze() {
   try {
     // read in data
-    const data = fs.readFileSync(config.logFilePath, 'utf-8');
+    const data = fs.readFileSync(argv.logFilePath, 'utf-8');
     const results = JSON.parse(data);
 
     const tlsVersions = analyzeTLSVersions(results);
@@ -81,6 +87,14 @@ function analyze() {
 
     const cipherSuites = analyzeCipherSuites(results);
     logger.info({ cipherSuites }, 'Outdated Cipher Suites Analysis');
+
+    saveResults({
+      'TLS-Versions': tlsVersions,
+      'Certifcates-Validity': certValidity,
+      "Top CA's": topCAs,
+      'Cipher-Suites': cipherSuites,
+    });
+    logger.info(`Results successfully saved in ${argv.analysisFilePath}`);
   } catch (error) {
     logger.error({ error: error.message }, 'Analysis failed');
   }

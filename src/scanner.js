@@ -1,16 +1,16 @@
 import tls from 'tls';
 import fs from 'fs';
 import csv from 'csv-parser';
-import { config } from './config.js';
 import { logger } from './logger.js';
+import { argv } from './argv.js';
 
-const certificate = fs.readFileSync(config.certFilePath);
+const certificate = fs.readFileSync(argv.certFilePath);
 
 const baseOptions = {
   port: 443,
   ca: certificate,
   rejectUnauthorized: true, // Enforce certificate validation
-  timeout: config.timeout,
+  timeout: argv.timeout,
 };
 
 function scan({ domain, ip }) {
@@ -49,7 +49,7 @@ function scan({ domain, ip }) {
 // Scan multiple domains in entries
 async function scanDomains(domains) {
   const results = [];
-  const limit = config.concurrency; // concurrency limit
+  const limit = argv.concurrency; // concurrency limit
   let index = 0;
 
   while (index < domains.length) {
@@ -83,7 +83,7 @@ function readDomains(path) {
 }
 
 function saveResults(results) {
-  const path = config.logFilePath;
+  const path = argv.logFilePath;
   fs.writeFileSync(path, JSON.stringify(results, null, 2));
   logger.info(`Scan results saved to ${path}`);
 }
@@ -91,7 +91,7 @@ function saveResults(results) {
 async function run() {
   try {
     logger.info('Reading in domains.');
-    const entries = await readDomains(config.inputFilePath);
+    const entries = await readDomains(argv.inputFilePath);
 
     logger.info({ count: entries.length }, 'Starting scan for domains.');
     const results = await scanDomains(entries);

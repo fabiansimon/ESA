@@ -17,6 +17,7 @@
     "axios": "^1.7.9",
     "csv-parser": "^3.0.0",
     "pino": "^9.5.0",
-    "pino-pretty": "^13.0.0"
+    "pino-pretty": "^13.0.0",
+    "yargs": "^17.7.2"
   }
 }
