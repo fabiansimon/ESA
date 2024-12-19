@@ -570,7 +570,7 @@
   {
     "domain": "excellentjobsnetwork.com",
     "ip": "45.10.22.241",
-    "error": "Connection timed out."
+    "error": "certificate has expired"
   },
   {
     "domain": "www.steuer-web.de",

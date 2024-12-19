@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Clear the terminal
-clear
-
 # Run the scan script and forward all arguments
 npm run scan -- "$@"
 
